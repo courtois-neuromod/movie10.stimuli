@@ -1,0 +1,1 @@
+1be9159a-fb45-4102-ad60-686c908558a0 autoenable=true bucket=cneuromod.movie10.stimuli chunk=1GiB datacenter=US encryption=none exporttree=no host=s3.unf-montreal.ca name=s3unf.cneuromod.movie10.stimuli port=443 protocol=https requeststyle=path storageclass=STANDARD type=S3 timestamp=1622039566.657521261s
