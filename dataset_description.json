@@ -1,0 +1,49 @@
+{
+    "Name": "Movie10 language annotations",
+    "Dataset": {
+        "Format": "One .json file per each .mkv file",
+        "Content": "Each .json file contains the entire transcript and word specific attributes.",
+        "Data": {
+            "transcript": "The entire text that contains the transcript.",
+            "word": "Aligned word passing in the transcripts extracted from the original mkv files .",
+            "start": "The onset of the aligned word",
+            "end": "The offset of the aligned word",
+            "confidence": "Likelihood of a word that is identified correctly by AssemblyAI software."
+        }
+    },
+    "Dataset Counts": {
+        "Number of words": 37366,
+        "Number of unique words": 6662,
+        "Total Number tokens (Byte-Pair Encoding)": 53850,
+        "Total number of unique tokens (Byte-Pair Encoding)": 6066,
+         "Number of words per movie": {
+
+            "figures": 11608 ,
+            "life": 2860,
+            "wolf": 22898
+        },
+        "Number of unique words per movie": {
+
+            "figures": 2251,
+            "life": 1020,
+            "wolf": 3391
+        },
+       "Number tokens (Byte-Pair Encoding)": {
+
+            "figures": 16384 ,
+            "life": 3928,
+            "wolf": 33538
+        },
+
+        "Number Unique tokens (Byte-Pair Encoding)": {
+            "figures": 2082,
+            "life": 1121 ,
+            "wolf": 2863
+        }
+    },
+    "AssemblyAI": {
+        "language_code": "en_us",
+        "version" : "0.20.02",
+        "link": "https://www.assemblyai.com/"
+    }
+}
